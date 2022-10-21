@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d5e1ef;
+    color: #212529;
+}
+
+.qr-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.qr-image {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.qr-container p {
+    padding: 10px;
+    margin-top: 0;
+}
